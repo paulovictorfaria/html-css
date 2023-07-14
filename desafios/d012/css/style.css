@@ -48,14 +48,16 @@ header p {
   font-size: 16px;
 }
 
-header a, footer a {
+header a,
+footer a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-header a:hover, footer a:hover {
-    text-decoration: underline;
+header a:hover,
+footer a:hover {
+  text-decoration: underline;
 }
 
 p {
@@ -74,22 +76,29 @@ p {
   padding-left: 30px;
   padding-top: 75px;
   padding-bottom: 75px;
-  
 }
 
 #f1 {
-  background-image: url('../imagens/background001.jpg');
+  background-image: url("../imagens/background001.jpg");
   background-position: right center;
 }
 
-#f2{
-  background-image: url('../imagens/background002.jpg');
+#f2 {
+  background-image: url("../imagens/background002.jpg");
 }
 
-.com-img p{
+.com-img p {
   background-color: rgba(0, 0, 0, 0.411);
-    color: white;
-    padding: 5px;
-    display: inline-block;
+  color: white;
+  padding: 5px;
+  display: inline-block;
+}
 
+footer{
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
 }
