@@ -1,8 +1,8 @@
 @charset 'utf-8';
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 
 body {
   min-height: 100vh;
@@ -17,22 +17,19 @@ video {
   max-width: 100%;
 }
 
-
-
-body{
+body {
   margin: 0;
   font-family: "Sriracha";
   min-height: 100vh;
   font-size: 20px;
 }
 
-header{
+header {
   background-color: black;
   color: white;
-
 }
 
-header h1{
+header h1 {
   text-align: center;
   margin: 0;
   padding-top: 50px;
@@ -41,41 +38,56 @@ header h1{
   font-size: 50px;
 }
 
-header p{
+header p {
   text-align: center;
   padding-bottom: 1.5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 0;
   margin: 0;
   padding-bottom: 50px;
+  font-size: 16px;
 }
 
-header a{
+header a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  
 }
 
-p{
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+p {
   margin: 0;
   padding-bottom: 40px;
 }
 
-
-.padrao{
+.padrao {
   padding-left: 30px;
   padding-top: 75px;
   padding-bottom: 75px;
-
 }
 
-.com-img{
-color: white;
-background-color:rgba(0, 0, 0, 0.26) ;
-padding-left: 30px;
-padding-top: 75px;
-padding-bottom: 75px;
+.com-img {
+  color: white;
+  padding-left: 30px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
 
+#f1 {
+  background-image: url('../imagens/background001.jpg');
+  background-position: center center;
+}
+
+#f2{
+  background-image: url('../imagens/background002.jpg');
+}
+
+.com-img p{
+  background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    padding: 5px;
 
 }
