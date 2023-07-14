@@ -48,7 +48,7 @@ header p {
   font-size: 16px;
 }
 
-header a {
+header a, footer a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -74,11 +74,12 @@ p {
   padding-left: 30px;
   padding-top: 75px;
   padding-bottom: 75px;
+  
 }
 
 #f1 {
   background-image: url('../imagens/background001.jpg');
-  background-position: center center;
+  background-position: right center;
 }
 
 #f2{
@@ -89,5 +90,6 @@ p {
   background-color: rgba(0, 0, 0, 0.411);
     color: white;
     padding: 5px;
+    display: inline-block;
 
 }
