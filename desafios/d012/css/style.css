@@ -1,5 +1,8 @@
 @charset 'utf-8';
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 body {
   min-height: 100vh;
@@ -18,6 +21,9 @@ video {
 
 body{
   margin: 0;
+  font-family: "Sriracha";
+  min-height: 100vh;
+  font-size: 20px;
 }
 
 header{
@@ -29,15 +35,47 @@ header{
 header h1{
   text-align: center;
   margin: 0;
-  padding-top: 1.5rem;
+  padding-top: 50px;
+  padding-bottom: 0;
+  font-family: "Passion one", cursive;
+  font-size: 50px;
 }
 
 header p{
   text-align: center;
   padding-bottom: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 0;
+  margin: 0;
+  padding-bottom: 50px;
 }
 
 header a{
   color: white;
   text-decoration: none;
+  font-weight: bold;
+  
+}
+
+p{
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+
+.padrao{
+  padding-left: 30px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
+
+.com-img{
+color: white;
+background-color:rgba(0, 0, 0, 0.26) ;
+padding-left: 30px;
+padding-top: 75px;
+padding-bottom: 75px;
+
+
 }
