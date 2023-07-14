@@ -1,0 +1,43 @@
+@charset 'utf-8';
+
+
+body {
+  min-height: 100vh;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+
+
+body{
+  margin: 0;
+}
+
+header{
+  background-color: black;
+  color: white;
+
+}
+
+header h1{
+  text-align: center;
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+header p{
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+}
