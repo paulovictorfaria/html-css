@@ -4,10 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
 
-body {
-  min-height: 100vh;
-}
-
 /* responsive images/videos */
 img,
 picture,
@@ -91,6 +87,7 @@ p {
   color: white;
   padding: 5px;
   display: inline-block;
+  
 }
 
 footer{
@@ -99,5 +96,5 @@ footer{
   font-size: 16px;
   color: aliceblue;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
 }
