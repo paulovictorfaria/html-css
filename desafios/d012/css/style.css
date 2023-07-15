@@ -31,7 +31,8 @@ header h1 {
   padding-top: 50px;
   padding-bottom: 0;
   font-family: "Passion one", cursive;
-  font-size: 50px;
+  font-size: 10vw;
+  font-variant: small-caps;
 }
 
 header p {
@@ -63,18 +64,20 @@ p {
 
 .padrao {
   padding-left: 30px;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-size: 3.5vw;
 }
 
 .com-img {
   color: white;
   padding-left: 30px;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   background-size: cover;
   background-attachment: fixed;
   box-shadow: inset  10px 10px 13px 0px rgba(0, 0, 0, 0.411);
+  font-size: 3.5vw;
 }
 
 #f1 {
