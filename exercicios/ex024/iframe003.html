@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uso de iframes</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    iframe#tela{
+      width: 95vw;
+      border: 2px solid black;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Faça uma escolha</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam harum officia perferendis dignissimos culpa temporibus accusantium. Laudantium, quibusdam et qui placeat fugit eveniet, nisi nesciunt eligendi, nobis consequuntur dolores sint. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque esse est eaque, expedita doloremque quo! Eos vitae iure ratione quam, expedita eum porro voluptate. Voluptatibus sequi saepe quam ratione deserunt.</p>
+
+  <ul>
+    <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+    <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+    <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+  </ul>
+
+
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam harum officia perferendis dignissimos culpa temporibus accusantium. Laudantium, quibusdam et qui placeat fugit eveniet, nisi nesciunt eligendi, nobis consequuntur dolores sint. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque esse est eaque, expedita doloremque quo! Eos vitae iure ratione quam, expedita eum porro voluptate. Voluptatibus sequi saepe quam ratione deserunt.</p>
+
+  <iframe srcdoc="<h1>Escolha umas das opções</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis repellat nobis amet placeat rem consectetur atque, nostrum quae, temporibus, fuga possimus velit maxime. Neque dicta consectetur debitis, illum aut architecto.</p>" id="tela" name="frame">
+    <p>Infelizmente seu navegador não é compatível com isso</p>
+  </iframe>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dolorem magni? Corrupti fugit, ipsum ab molestiae quis vero? Maiores laudantium cum expedita autem quo perspiciatis dicta! Temporibus explicabo nostrum doloribus!
+  Ab est, sit perferendis minus voluptate, error eveniet ipsum laudantium magni unde voluptatum repellendus similique eius. Neque iusto temporibus facilis a eius magni, corrupti nemo illo aperiam aliquam magnam quidem!</p>
+</body>
+</html>
