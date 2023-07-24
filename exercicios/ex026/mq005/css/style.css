@@ -25,6 +25,7 @@ span#burguer{
   text-align: center;
   padding: 10px;
   cursor: pointer;
+  color: white;
 }
 
 span#burguer:hover{
